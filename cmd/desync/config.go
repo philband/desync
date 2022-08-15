@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"github.com/minio/minio-go/v6/pkg/credentials"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

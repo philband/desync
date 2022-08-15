@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"golang.org/x/crypto/ssh/terminal"
 	pb "gopkg.in/cheggaaa/pb.v1"
 )

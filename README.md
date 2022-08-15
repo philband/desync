@@ -1,8 +1,8 @@
 # desync
 
-[![GoDoc](https://godoc.org/github.com/folbricht/desync?status.svg)](https://godoc.org/github.com/folbricht/desync)
+[![GoDoc](https://godoc.org/github.com/philband/desync?status.svg)](https://godoc.org/github.com/philband/desync)
 
-This project re-implements many features of upstream [casync](https://github.com/systemd/casync) in [Go](https://golang.org/). It seeks to maintain compatibility with casync's data structures, protocols and types, such as chunk stores (castr), index files (caibx/caidx) and archives (catar) in order to function as a drop-in replacement in many use cases. It also tries to maintain support for platforms other than Linux and simplify build/installation. It consists of a [library](https://godoc.org/github.com/folbricht/desync) that implements the features, available for integration into any 3rd-party product as well as a command-line tool.
+This project re-implements many features of upstream [casync](https://github.com/systemd/casync) in [Go](https://golang.org/). It seeks to maintain compatibility with casync's data structures, protocols and types, such as chunk stores (castr), index files (caibx/caidx) and archives (catar) in order to function as a drop-in replacement in many use cases. It also tries to maintain support for platforms other than Linux and simplify build/installation. It consists of a [library](https://godoc.org/github.com/philband/desync) that implements the features, available for integration into any 3rd-party product as well as a command-line tool.
 
 For support and discussion, see [![Gitter chat](https://badges.gitter.im/desync-casync-client/Lobby.png)](https://gitter.im/desync-casync-client/Lobby). Feature requests should be discussed there before filing, unless you're interested in doing the work to implement them yourself.
 
@@ -76,13 +76,13 @@ The tool is provided for convenience. It uses the desync library and makes most 
 The following builds the binary and installs it into $HOME/go/bin by default.
 
 ```text
-GO111MODULE=on go get -v github.com/folbricht/desync/cmd/desync
+GO111MODULE=on go get -v github.com/philband/desync/cmd/desync
 ```
 
 Alternative method using a clone, building from the tip of the master branch.
 
 ```text
-git clone https://github.com/folbricht/desync.git
+git clone https://github.com/philband/desync.git
 cd desync/cmd/desync && go install
 ```
 

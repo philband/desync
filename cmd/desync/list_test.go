@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"github.com/stretchr/testify/require"
 )
 

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"github.com/minio/minio-go/v6"
 	"github.com/pkg/errors"
 )

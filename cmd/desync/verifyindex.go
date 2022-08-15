@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"github.com/spf13/cobra"
 )
 

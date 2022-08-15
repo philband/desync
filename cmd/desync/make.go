@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

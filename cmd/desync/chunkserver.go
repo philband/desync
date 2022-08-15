@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )
@@ -40,7 +40,7 @@ chunk store is provided. The option --skip-verify-write disables validation of
 chunks written to this server which bypasses checksum validation as well as
 the necessary decompression step to calculate it to improve performance. If -u
 is used, only uncompressed chunks are being served (and accepted). If the
-upstream store serves compressed chunks, everything will have to be decompressed 
+upstream store serves compressed chunks, everything will have to be decompressed
 server-side so it's better to also read from uncompressed upstream stores.
 
 While --concurrency does not limit the number of clients that can be served

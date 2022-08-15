@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 )
 
 type verifyOptions struct {

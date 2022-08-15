@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 
-	"github.com/folbricht/desync"
+	"github.com/philband/desync"
 	"github.com/spf13/pflag"
 )
 
