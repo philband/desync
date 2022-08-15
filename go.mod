@@ -1,4 +1,4 @@
-module github.com/folbricht/desync
+module github.com/philband/desync
 
 go 1.15
 
