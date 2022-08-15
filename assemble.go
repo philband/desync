@@ -168,6 +168,9 @@ func AssembleFile(ctx context.Context, name string, idx Index, s Store, seeds []
 loop:
 	for {
 		chunks, from, done := seq.Next()
+		if chunks.index.Length() == 0 {
+			break
+		}
 		select {
 		case <-ctx.Done():
 			break loop
